@@ -1,0 +1,4 @@
+require 'zadtool'
+
+Zadtool.run
+
