@@ -39,7 +39,7 @@ module Zadtool
     if path
         results = ""
         File.readlines(path).each do |line|
-            encodeStr = base_url + URI::encode line
+            encodeStr = base_url + URI::encode(line)
             results = results + encodeStr + "\n"
         end
         puts "---------------------"
